@@ -39,9 +39,17 @@ int main() {
   std::cout << "Example of output \n";
   std::cout << i << std::endl;
   // matrix add i + j
+  std::cout << "matrix add i + j\n";
+  std::cout << i + j << std::endl;
   // matrix scalar multiply i * 2.0
+  std::cout << "matrix scalar multiply i * 2.0\n";
+  std::cout << i * 2 << std::endl;
   // matrix multiply i * j
+  std::cout << "matrix multiply i * j\n";
+  std::cout << i * j << std::endl;
   // matrix multiply vector i * v
+  std::cout << "matrix multiply vector i * v\n";
+  std::cout << i * v << std::endl;
 
   return 0;
 }
